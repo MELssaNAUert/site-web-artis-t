@@ -1,0 +1,354 @@
+logo-container {
+
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+   margin-bottom: 10px;
+
+}
+
+
+.logo {
+
+   width: 50px; /* Adjust size as needed */
+
+   height: auto;
+
+}
+
+
+/* Header Styling */
+
+header {
+
+   background-color: white
+
+   padding: 20px;
+
+   text-align: center;
+
+}
+
+
+header h1 {
+
+   font-size: 2rem;
+
+   margin-bottom: 10px;
+
+}
+
+
+/* Navigation Links */
+
+nav a {
+
+   margin: 0 10px;
+
+   text-decoration: none;
+
+   color: white;
+
+}
+
+.logo-container {
+
+   position: absolute;
+
+   top: 0;
+
+   left: 0;
+
+   margin: 10px; /* Ajustez si besoin pour l'espacement */
+
+}
+
+
+.logo-container img {
+
+   max-width: 100px; /* Ajustez selon la taille souhaitée */
+
+}
+
+.image-center {
+
+   display: flex;
+
+   justify-content: center;
+
+   align-items: center;
+
+   height: 100vh; /* Cela place l'image au centre de la hauteur de la page */
+
+}
+
+
+.image-center img {
+
+   max-width: 100%; /* Ajuste l'image pour qu'elle ne dépasse pas la largeur de l'écran */
+
+   height: auto; /* Conserve les proportions de l'image */
+
+}
+
+/* Reset */
+
+* {
+
+   margin: 0;
+
+   padding: 0;
+
+   box-sizing: border-box;
+
+}
+
+
+body {
+
+   font-family: Arial, sans-serif;
+
+   line-height: 1.6;
+
+   color: #333;
+
+}
+
+
+header {
+
+   background-color: #f4f4f4;
+
+   padding: 20px;
+
+   text-align: center;
+
+}
+
+
+header h1 {
+
+   font-size: 2rem;
+
+   margin-bottom: 10px;
+
+}
+
+
+nav a {
+
+   margin: 0 10px;
+
+   text-decoration: none;
+
+   color: #333;
+
+}
+
+
+/* Main Sections */
+
+main {
+
+   padding: 20px;
+
+}
+
+
+.highlight {
+
+   text-align: center;
+
+}
+
+
+.highlight img {
+
+   width: 100%;
+
+   max-height: 300px;
+
+   object-fit: cover;
+
+}
+
+
+.highlight h2 {
+
+   font-size: 1.8rem;
+
+   margin: 10px 0;
+
+}
+
+
+.highlight-images {
+
+   display: flex;
+
+   justify-content: center;
+
+   gap: 10px;
+
+}
+
+
+.highlight-images img {
+
+   width: 45%;
+
+   height: auto;
+
+   border-radius: 8px;
+
+}
+
+
+/* Gallery */
+
+.gallery {
+
+   margin: 40px 0;
+
+}
+
+
+.artworks {
+
+   display: flex;
+
+   flex-wrap: wrap;
+
+   gap: 15px;
+
+   justify-content: space-between;
+
+}
+
+
+.art-item {
+
+   flex: 1 1 45%;
+
+   text-align: center;
+
+}
+
+
+.art-item img {
+
+   width: 100%;
+
+   border-radius: 8px;
+
+}
+
+
+/* Photography */
+
+.photography {
+
+   margin: 40px 0;
+
+}
+
+
+.photo-gallery {
+
+   display: flex;
+
+   flex-wrap: wrap;
+
+   gap: 10px;
+
+}
+
+
+.photo-gallery img {
+
+   width: 100%;
+
+   max-width: 32%;
+
+   border-radius: 8px;
+
+}
+
+
+/* Contact */
+
+.contact {
+
+   text-align: center;
+
+   background-color: #f4f4f4;
+
+   padding: 20px;
+
+   margin-top: 40px;
+
+   border-radius: 8px;
+
+}
+
+
+.contact-info {
+
+   display: flex;
+
+   justify-content: center;
+
+   gap: 20px;
+
+   flex-wrap: wrap;
+
+}
+
+
+.contact-info div {
+
+   background-color: #eee;
+
+   padding: 20px;
+
+   border-radius: 8px;
+
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 768px) {
+
+   .highlight-images {
+
+       flex-direction: column;
+
+   }
+
+
+   .artworks, .photo-gallery {
+
+       flex-direction: column;
+
+   }
+
+
+   .art-item, .photo-gallery img {
+
+       width: 100%;
+
+   }
+
+
+   .contact-info {
+
+       flex-direction: column;
+
+   }
+
+}
+
