@@ -1,11 +1,5 @@
 
 
-.nav {
-    display: flex;
-    justify-content: flex-end; 
-    padding: 10px;
-}
-
 .right-link {
     text-decoration: none;
     color: #333; 
