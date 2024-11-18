@@ -241,24 +241,3 @@ main {
         flex-direction: column;
     }
 }
-
-img {
-    animation: zoom 3s ease-in-out infinite; 
-}
-
-@keyframes zoom {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1); 
-    }
-}
-
-p, h1, h2, h3, h4, h5, h6, span, a {
-    transition: transform 0.3s ease; 
-}
-
-p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, span:hover, a:hover {
-    transform: scale(1.1); 
-}
