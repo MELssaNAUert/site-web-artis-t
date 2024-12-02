@@ -25,18 +25,18 @@ logo-container {
 body {
     line-height: 1.6;
     background-color: #ffffff;
-    color: #333;
+    color: #000000;
 }
 
 header {
     background-color:#000000
     color: #fff;
     padding: 1.5rem 0;
-    text-align: center;
+    text-align: center;    
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem;  
 }
 
 header p {
@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #860b0b;
+    color: #444;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background 0.3s;
@@ -71,7 +71,7 @@ section {
 h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #9a0c30;
+    color: #000000;
 }
 
 .highlight-gallery, .photo-gallery {
@@ -163,4 +163,12 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-}  
+}
+   
+
+
+  
+
+
+
+
