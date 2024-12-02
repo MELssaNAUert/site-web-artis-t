@@ -1,4 +1,4 @@
-logo-container {
+ logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,13 +74,15 @@ h2 {
     color: #000000;
 }
 
-.highlight-gallery.photo-gallery{
+.highlight-gallery, .photo-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
 }
-
+.taches{
+    float:right
+}
 
 article, .photo-gallery div {
     background: #fff;
@@ -167,10 +169,4 @@ footer {
     }
 }
    
-
-
-  
-
-
-
 
