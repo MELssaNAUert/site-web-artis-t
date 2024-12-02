@@ -80,6 +80,9 @@ h2 {
     gap: 1.5rem;
     margin-top: 1rem;
 }
+.taches{
+    float:right
+}
 
 article, .photo-gallery div {
     background: #fff;
