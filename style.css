@@ -83,7 +83,9 @@ h2 {
 .taches{
     float:right
 }
-
+.roses{
+    float:left
+}
 article, .photo-gallery div {
     background: #fff;
     border-radius: 10px;
