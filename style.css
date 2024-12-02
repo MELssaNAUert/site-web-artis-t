@@ -74,18 +74,14 @@ h2 {
     color: #000000;
 }
 
-.highlight-gallery{
-    display: flex;
+.highlight-gallery.photo-gallery{
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
 }
-.taches{
-    float:right
-}
-.roses{
-    float:left
-}
+
+
 article, .photo-gallery div {
     background: #fff;
     border-radius: 10px;
