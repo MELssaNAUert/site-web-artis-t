@@ -74,7 +74,7 @@ h2 {
     color: #000000;
 }
 
-.highlight-gallery, .photo-gallery {
+.highlight-gallery{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
